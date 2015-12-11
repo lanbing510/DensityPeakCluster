@@ -4,10 +4,18 @@ Python codes for 'Clustering by fast search and find of density peaks' in scienc
 
 ## Introduction
 
-I forked the original DensityPeakCluster from [here](https://github.com/jasonwbw/DensityPeakCluster), thanks jasonwbw. I have fixed its bugs and reproduced the excellent work of Alex Rodriguez and Alessandro Laio in the paper 'Clustering by fast search and find of density peaks'. The matlab code of Alex Rodriguez and Alessandro Laio was pleaced under ./data/data_in_paper. The results of their code are shown below:
+I forked the original DensityPeakCluster from [here](https://github.com/jasonwbw/DensityPeakCluster), thanks jasonwbw. I have fixed its bugs and reproduced the excellent work of Alex Rodriguez and Alessandro Laio in the paper 'Clustering by fast search and find of density peaks'. The matlab code of Alex Rodriguez and Alessandro Laio was pleaced under ./data/data_in_paper. 
+
+The results of original matlab code are shown below:
+
+<img href="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Matlab-Decision%20Graph.png"  width="40%"></img>
+<img href="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Matlab-2D%20Nonclassical%20Multidimensional%20Scaling.png"  width="40%"></img>
 
 
 The results of our code are shown here:
+
+<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-Decision%20Graph.png"  width="40%"></img>
+<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-2D%20Nonclassical%20Multidimensional%20Scaling.png"  width="40%"></img>
 
 
 Note that the mds method of python is not totally same with mds in matlab. However, we still can see the results are the same in essence.
