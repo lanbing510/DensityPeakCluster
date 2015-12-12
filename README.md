@@ -27,10 +27,10 @@ spiral
 <img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-spiral-Decision%20Graph.jpg"  width=" 40%"></img>
 <img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-spiral-2D%20Nonclassical%20Multidimensional%20Scaling.jpg"  width=" 40%"></img>
 
-agreegation
+aggregation
 
-<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-agregation-Decision%20Graph.jpg"  width=" 40%"></img>
-<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-agregation-2D%20Nonclassical%20Multidimensional%20Scaling.jpg"  width=" 40%"></img>
+<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-aggregation-Decision%20Graph.jpg"  width=" 40%"></img>
+<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-aggregation-2D%20Nonclassical%20Multidimensional%20Scaling.jpg"  width=" 40%"></img>
 
 flame
 
