@@ -29,8 +29,8 @@ spiral
 
 agreegation
 
-<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-agreegation-Decision%20Graph.jpg"  width=" 40%"></img>
-<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-agreegation-2D%20Nonclassical%20Multidimensional%20Scaling.jpg"  width=" 40%"></img>
+<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-agregation-Decision%20Graph.jpg"  width=" 40%"></img>
+<img src="https://github.com/lanbing510/DensityPeakCluster/blob/master/data/results/Python-agregation-2D%20Nonclassical%20Multidimensional%20Scaling.jpg"  width=" 40%"></img>
 
 flame
 
