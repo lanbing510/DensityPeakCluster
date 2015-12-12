@@ -100,3 +100,21 @@ class ConsineDistance(Distance):
       return 1
     return - num / denom
 #end ConsineDistance
+
+
+class SqrtDistance(Distance):
+  """
+  Square distance
+      
+  a sub class of Distance
+  """  
+
+  def distance(self, vec1, vec2):
+    """
+    Compute distance of two vector by square distance
+    """
+    super(SqrtDistance, self).distance(vec1, vec2)      #super method
+    vec=vec1-vec2
+    return sqrt(sum([pow(item, 2) for item in vec]))
+#end SqrtDistance
+
