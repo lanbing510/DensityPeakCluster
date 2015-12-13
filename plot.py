@@ -48,6 +48,32 @@ def plot_cluster(cluster):
 	plt.savefig("2D Nonclassical Multidimensional Scaling.jpg")
 
 
+def plot_rhodelta_rho(rho, delta):
+	'''
+	Plot scatter diagram for rho*delta_rho points
+
+	Args:
+		rho   : rho list
+		delta : delta list
+	'''
+	logger.info("PLOT: rho*delta_rho plot")
+	y=rho*delta
+	r_index=np.argsort(-y)
+	x=np.zeros(y.shape[0])
+	idx=0
+	for r in r_index:
+	    x[r]=idx
+	    idx+=1
+	plt.figure(2)
+	plt.clf()
+	plt.scatter(x,y)
+	plt.xlabel('sorted rho')
+	plt.ylabel('rho*delta')
+	plt.title("Decision Graph RhoDelta-Rho")
+	plt.show()
+	plt.savefig('Decision Graph RhoDelta-Rho.jpg')
+
+
 if __name__ == '__main__':
 	logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 	dpcluster = DensityPeakCluster()

@@ -14,6 +14,7 @@ def plot(data, density_threshold, distance_threshold, auto_select_dc = False):
 	for idx, center in dpcluster.ccenter.items():
 		logger.info('%d %f %f' %(idx, rho[center], delta[center]))
 	plot_rho_delta(rho, delta)   #plot to choose the threthold
+	plot_rhodelta_rho(rho,delta)
 	plot_cluster(dpcluster)
 
 
