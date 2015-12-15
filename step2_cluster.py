@@ -20,7 +20,7 @@ def plot(data, density_threshold, distance_threshold, auto_select_dc = False):
 
 if __name__ == '__main__':
 	plot('./data/data_in_paper/example_distances.dat', 20, 0.1,False)
-	#plot('./data/data_others/spiral_distance.dat',8,5,Flase)
+	#plot('./data/data_others/spiral_distance.dat',8,5,False)
 	#plot('./data/data_others/aggregation_distance.dat',15,4.5,False)
 	#plot('./data/data_others/flame_distance.dat',4,7,False)
 	#plot('./data/data_others/jain_distance.dat',12,10,False)
